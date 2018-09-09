@@ -7273,7 +7273,7 @@ body {
   font-size: 15px;
   line-height: 1.8;
   font-weight: 400;
-  color: #7782aa; }
+  color: #292b2d; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -7284,10 +7284,10 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #167ce9; }
+  color: #292b2d; }
   a:hover {
     text-decoration: none;
-    color: #167ce9; }
+    color: #292b2d; }
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
@@ -7371,9 +7371,9 @@ h1, h2, h3, h4, h5,
       background: #167ce9;
       border: 1px solid #167ce9; }
   .ftco-navbar-light .navbar-nav > .nav-item.cta.cta-colored span {
-    border-color: #167ce9; }
+    border-color: #292b2d; }
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-    color: #167ce9; }
+    color: #292b2d; }
   .ftco-navbar-light .navbar-toggler {
     border: none;
     color: rgba(255, 255, 255, 0.5) !important;
@@ -7410,7 +7410,7 @@ h1, h2, h3, h4, h5,
         display: inline-block;
         color: #fff !important; }
     .ftco-navbar-light.scrolled .nav-item.cta.cta-colored span {
-      border-color: #167ce9; }
+      border-color: #292b2d; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light.scrolled .navbar-nav {
         background: none;
@@ -7456,9 +7456,9 @@ h1, h2, h3, h4, h5,
   letter-spacing: 1px; }
   .navbar-brand span {
     font-weight: 300;
-    color: #167ce9; }
+    color: #292b2d; }
   .navbar-brand i {
-    color: #167ce9;
+    color: #292b2d;
     font-size: 24px; }
 
 .hero-wrap {
@@ -7628,11 +7628,11 @@ h1, h2, h3, h4, h5,
     .btn.btn-primary:hover {
       border: 1px solid #167ce9;
       background: transparent;
-      color: #167ce9; }
+      color: #292b2d; }
     .btn.btn-primary.btn-outline-primary {
       border: 1px solid #167ce9;
       background: transparent;
-      color: #167ce9; }
+      color: #292b2d; }
       .btn.btn-primary.btn-outline-primary:hover {
         border: 1px solid transparent;
         background: #167ce9;
@@ -7649,7 +7649,7 @@ h1, h2, h3, h4, h5,
     .btn.btn-outline-white:hover, .btn.btn-outline-white:focus, .btn.btn-outline-white:active {
       background: #fff;
       border-color: #fff;
-      color: #167ce9; }
+      color: #292b2d; }
 
 .ftco-services .nav-link-wrap {
   background: #292b2d; }
@@ -7712,7 +7712,7 @@ h1, h2, h3, h4, h5,
 
 .ftco-services .tab-content .tab-pane .icon {
   font-size: 100px;
-  color: #167ce9;
+  color: #292b2d;
   line-height: 1.2; }
 
 .ftco-services .tab-content .tab-pane h2 {
@@ -7742,7 +7742,7 @@ h1, h2, h3, h4, h5,
     width: 360%;
     background: rgba(255, 255, 255, 0.8); }
   .services-wrap h2 {
-    color: #167ce9;
+    color: #292b2d;
     font-size: 24px; }
   .services-wrap p {
     color: #7782aa;
@@ -7803,7 +7803,7 @@ h1, h2, h3, h4, h5,
       padding: 0; }
       .dept .text ul li {
         list-style: none;
-        color: #167ce9;
+        color: #292b2d;
         position: relative;
         padding-left: 24px; }
         .dept .text ul li span {
@@ -7812,7 +7812,7 @@ h1, h2, h3, h4, h5,
           left: 0;
           bottom: 0; }
           .dept .text ul li span:before {
-            color: #167ce9;
+            color: #292b2d;
             font-size: 24px; }
 
 #accordion .card {
@@ -7844,7 +7844,7 @@ h1, h2, h3, h4, h5,
         padding: 4px 10px;
         margin-left: 10px;
         background: #d0e5fb;
-        color: #167ce9;
+        color: #292b2d;
         -webkit-border-radius: 30px;
         -moz-border-radius: 30px;
         -ms-border-radius: 30px;
@@ -8120,7 +8120,7 @@ textarea.form-control {
     font-weight: 500;
     font-size: 16px;
     margin-bottom: 0;
-    color: #167ce9; }
+    color: #292b2d; }
   .media-custom .media-body .position {
     font-size: 13px;
     color: white; }
@@ -8209,12 +8209,12 @@ textarea.form-control {
   .footer-small-nav > li a {
     margin: 0 10px 10px 0; }
     .footer-small-nav > li a:hover, .footer-small-nav > li a:focus {
-      color: #167ce9; }
+      color: #292b2d; }
 
 .media .ftco-icon {
   width: 100px; }
   .media .ftco-icon span {
-    color: #167ce9; }
+    color: #292b2d; }
 
 .ftco-media {
   background: #fff;
@@ -8238,7 +8238,7 @@ textarea.form-control {
   .ftco-media .icon {
     font-size: 50px;
     display: block;
-    color: #167ce9; }
+    color: #292b2d; }
   .ftco-media.text-center .ftco-icon {
     margin: 0 auto; }
 
@@ -8413,7 +8413,7 @@ textarea.form-control {
     font-weight: 500;
     font-size: 16px;
     margin-bottom: 0;
-    color: #167ce9; }
+    color: #292b2d; }
   .testimony-wrap .position {
     font-size: 13px;
     color: #bbb7d6; }
@@ -8538,7 +8538,7 @@ textarea.form-control {
     display: block;
     font-size: 72px;
     font-weight: bold;
-    color: #167ce9; }
+    color: #292b2d; }
   .ftco-counter .ftco-label {
     font-size: 12px;
     text-transform: uppercase;
@@ -8639,7 +8639,7 @@ textarea.form-control {
         line-height: 1.5; }
       .block-2 .front .box h2 {
         font-size: 20px;
-        color: #167ce9; }
+        color: #292b2d; }
       .block-2 .front .box p {
         font-size: 12px; }
   .block-2 .back {
@@ -8719,7 +8719,7 @@ textarea.form-control {
       .blog-entry .text .heading a {
         color: #39345a; }
         .blog-entry .text .heading a:hover, .blog-entry .text .heading a:focus, .blog-entry .text .heading a:active {
-          color: #167ce9; }
+          color: #292b2d; }
     .blog-entry .text .read {
       color: #39345a;
       font-size: 14px; }
@@ -8896,7 +8896,7 @@ textarea.form-control {
     margin-bottom: 4px;
     font-weight: 400; }
     .block-27 ul li a, .block-27 ul li span {
-      color: #167ce9;
+      color: #292b2d;
       text-align: center;
       display: inline-block;
       width: 40px;
@@ -8906,7 +8906,7 @@ textarea.form-control {
       border: 1px solid #8bbef4; }
     .block-27 ul li.active a, .block-27 ul li.active span {
       background: #8bbef4;
-      color: #167ce9;
+      color: #292b2d;
       border: 1px solid transparent; }
 
 .block-8 .accordion-item .heading {
@@ -9020,7 +9020,7 @@ textarea.form-control {
     .block-21 .text .heading a {
       color: #39345a; }
       .block-21 .text .heading a:hover, .block-21 .text .heading a:active, .block-21 .text .heading a:focus {
-        color: #167ce9; }
+        color: #292b2d; }
   .block-21 .text .meta > div {
     display: inline-block;
     font-size: 12px;
@@ -9365,11 +9365,11 @@ textarea.form-control {
     background: #167ce9;
     cursor: pointer; }
   .sidebar-wrap .rate i {
-    color: #167ce9;
+    color: #292b2d;
     margin: 0 4px !important; }
 
 .rate i {
-  color: #167ce9;
+  color: #292b2d;
   margin: 0 4px; }
 
 .sidebar-box {
