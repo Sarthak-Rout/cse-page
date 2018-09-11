@@ -9509,6 +9509,9 @@ td, th {
     text-align: left;
     padding: 8px;
 }
+#serial{
+  width: 50px;
+}
 
 tr:nth-child(even) {
     background-color: #dddddd;
