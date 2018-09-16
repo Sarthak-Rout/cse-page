@@ -9518,3 +9518,10 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+#club{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: inherit;
+  font-size-adjust: auto;
+}
