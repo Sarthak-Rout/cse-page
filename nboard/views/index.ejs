@@ -22,8 +22,6 @@
     <link rel="stylesheet" href="stylesheets/bootstrap-datepicker.css">
     <link rel="stylesheet" href="stylesheets/jquery.timepicker.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/stylesheets/font-awesome.min.css">
-
     <link rel="stylesheet" href="stylesheets/flaticon.css">
     <link rel="stylesheet" href="stylesheets/icomoon.css">
     <link rel="stylesheet" href="stylesheets/style.css">
@@ -32,22 +30,13 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="/index"><i class="fa fa-laptop" style="font-size:24px"></i><span>C</span>SE</a>
+      <a class="navbar-brand" href="/index"><i class="fa fa-laptop" style="font-size:24px"></i>
+        <span>C</span>SE</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
 
-      <div class="collapse navbar-collapse" id="ftco-nav">
-        <ul class="navbar-nav ml-auto">
-          <<li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="/notice" class="nav-link">Notice</a></li>
-          <li class="nav-item active"><a href="/faculty" class="nav-link">Faculty</a></li>
-          <li class="nav-item"><a href="/syllabus" class="nav-link">Syllabus</a></li>
-          <li class="nav-item"><a href="/holidays" class="nav-link">Holidays</a></li>
-          <li class="nav-item cta"><a href="/login" class="nav-link"><span>Admin Login</span></a></li>
-        </ul>
-      </div>
+      <%- include('navbar') %>
     </div>
   </nav>
     <!-- END nav -->
