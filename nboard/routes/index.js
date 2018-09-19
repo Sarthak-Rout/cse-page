@@ -1,6 +1,5 @@
 var express = require('express');
 var router = express.Router();
-const Notice = require('../models/notice')
 
 /* GET home page. */
 router.get('/', function(req, res) {
@@ -19,19 +18,35 @@ router.get('/login', function(req, res) {
   res.render('login');
 });
 
+router.get('/syllabus', function(req, res) {
+  res.render('syllabus');
+});
+
+router.get('/blog-ds', function(req, res) {
+  res.render('blog-ds');
+});
+
+router.get('/blog-ee', function(req, res) {
+  res.render('blog-ee');
+});
+
+router.get('/blog-java', function(req, res) {
+  res.render('blog-java');
+});
+
+router.get('/blog-se', function(req, res) {
+  res.render('blog-se');
+});
+
+router.get('/blog-sp', function(req, res) {
+  res.render('blog-sp');
+});
+
+router.get('/blog-stld', function(req, res) {
+  res.render('blog-stld');
+});
+
 router.get('/notice', function(req, res) {
   res.render('notice');
 });
-router.get('/enter', function(req, res) {
-  res.render('enter');
-});
-router.post('/enter', function(req, res) {
-  console.log(req.body);
-  let newNotice = new Notice(req.body);
-  console.log(newNotice);
-  newNotice.save()
-    .then(res.send("saved succesfully"))
-    .catch((err) => console.log(err))
-});
-
 module.exports = router;

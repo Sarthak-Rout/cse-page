@@ -7481,7 +7481,7 @@ h1, h2, h3, h4, h5,
     background: -ms-linear-gradient(45deg, #292b2d 0%, #70757a 100%);
     background: linear-gradient(45deg, #292b2d 0%, #70757a 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#167ce9', endColorstr='#79efb4', GradientType=1 ); }
-    
+
 .slider-text {
   color: #fff;
   height: 650px; }
