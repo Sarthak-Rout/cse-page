@@ -29,17 +29,9 @@
   </head>
   <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="/index"><i class="fa fa-laptop" style="font-size:24px"></i><span>Re</span>Medic</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="oi oi-menu"></span> Menu
-      </button>
-
+    <div>
       <%- include('navbar') %>
     </div>
-  </nav>
-    <!-- END nav -->
 
     <div class="hero-wrap" style="background-image: url('https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/143619/580/386/m1/fpnw/wm0/noticeboard-.jpg?1405440673&s=b94ab1e81bbfededb3ba8f9d7bec59ce'); background-attachment:fixed;">
       <div class="overlay"></div>
@@ -57,22 +49,18 @@
     <div id="noticeboard">
     <ul id="notices" class="notice">
       <h3>Notices</h3>
-      <input id="inp_notice" type="text">
-      <button onclick="additem1()" class="button1">ADD</button>
-      <li>adgahjdk</li>
+      <% for(var i=0; i<data.length; i++ ){ %>
+      <li><%= data[i].title %>..
+      <%= data[i].body %>..
+      <%= data[i].date %></li>
+      <% } %>
     </ul>
     <ul id="events" class="event">
       <h3>Events</h3>
-      <input class="inp_event" type="text">
-      <button onclick="additem2()" class="button2">ADD</button>
-      <li>dnxkashKdh</li>
     </ul>
     <ul id="notes" class="note">
       <h3>Notes</h3>
-      <input class="inp_note" type="text">
-      <button onclick="additem3()" class="button3">ADD</button>
-      <li>adskljdjjdas</li>
-    </ul>
+      </ul>
     </div>
     <footer class="ftco-footer ftco-bg-dark ftco-section img" style="background-image: url(images/bg_5.jpg);">
     	<div class="overlay"></div>

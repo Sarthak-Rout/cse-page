@@ -5,11 +5,16 @@
     <title>signup</title>
   </head>
   <body>
-    <form method="POST" action="/enter">
-    <label  for="title">title</label>
-    <input type="text" name="title">
-    <label  for="body">body</label>
-    <input type="text" name="body">
+    <% if(message.length > 0){ %>
+    <div>
+      <%= message %>
+    </div>
+    <% } %>
+    <form method="POST" action="/verify">
+    <label  for="title">username</label>
+    <input type="text" name="username">
+    <label  for="body">password</label>
+    <input type="password" name="password">
     <button type="submit" class="submit">Submit</button>
 
   </form>

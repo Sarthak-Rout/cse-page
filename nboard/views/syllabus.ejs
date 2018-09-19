@@ -31,18 +31,9 @@
   </head>
   <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="/index"><i class="fa fa-laptop" style="font-size:24px"></i><span>C</span>SE</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="oi oi-menu"></span> Menu
-      </button>
-
+    <div>
       <%- include('navbar') %>
-
     </div>
-  </nav>
-    <!-- END nav -->
 
     <div class="hero-wrap" style="background-image: url('http://goldfm.lt/wp-content/uploads/2016/06/science-all.jpg'); background-attachment:fixed;">
       <div class="overlay"></div>
@@ -114,21 +105,7 @@
             </div>
           </div>
         </div>
-        <!-- <div class="row mt-5">
-          <div class="col text-center">
-            <div class="block-27">
-              <ul>
-                <li><a href="#">&lt;</a></li>
-                <li class="active"><span>1</span></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
-                <li><a href="#">&gt;</a></li>
-              </ul>
-            </div>
-          </div>
-        </div> -->
+
       </div>
     </section>
 
@@ -136,10 +113,10 @@
 
     <footer class="ftco-footer ftco-bg-dark ftco-section img" style="background-image: url(images/bg_5.jpg);">
     	<div class="overlay"></div>
-      <div class="container">
+      <!-- <div class="container">
         <div class="row mb-5">
           <div class="col-md">
-            <!-- <div class="ftco-footer-widget mb-4">
+            <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Remedic</h2>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
@@ -147,9 +124,9 @@
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
               </ul>
-            </div> -->
+            </div>
           </div>
-          <!-- <div class="col-md">
+          <div class="col-md">
             <div class="ftco-footer-widget mb-4 ml-md-5">
               <h2 class="ftco-heading-2">Information</h2>
               <ul class="list-unstyled">
@@ -160,15 +137,15 @@
                 <li><a href="#" class="py-2 d-block">health Tips</a></li>
               </ul>
             </div>
-          </div> -->
-          <!-- <div class="col-md">
+          </div>
+          <div class="col-md">
              <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Site Links</h2>
               <ul class="list-unstyled">
                 <li><a href="#" class="py-2 d-block">Home</a></li>
                 <li><a href="#" class="py-2 d-block">About</a></li>
                 <li><a href="#" class="py-2 d-block">Departments</a></li>
-                <li><a href="#" class="py-2 d-block">Doctors</a></li>
+                <li><a href="#" class="py-2 d-block">facultys</a></li>
                 <li><a href="#" class="py-2 d-block">Blog</a></li>
                 <li><a href="#" class="py-2 d-block">Contact</a></li>
               </ul>
@@ -185,8 +162,8 @@
 	              </ul>
 	            </div>
             </div>
-          </div> -->
-        </div>
+          </div>
+        </div> -->
         <div class="row">
           <div class="col-md-12 text-center">
 
@@ -200,57 +177,11 @@
 
 
 
+
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
-  <!-- Modal -->
-    <!-- <div class="modal fade" id="modalAppointment" tabindex="-1" role="dialog" aria-labelledby="modalAppointmentLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="modalAppointmentLabel">Appointment</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <form action="#">
-              <div class="form-group">
-                <label for="appointment_name" class="text-black">Full Name</label>
-                <input type="text" class="form-control" id="appointment_name">
-              </div>
-              <div class="form-group">
-                <label for="appointment_email" class="text-black">Email</label>
-                <input type="text" class="form-control" id="appointment_email">
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="appointment_date" class="text-black">Date</label>
-                    <input type="text" class="form-control" id="appointment_date">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="appointment_time" class="text-black">Time</label>
-                    <input type="text" class="form-control" id="appointment_time">
-                  </div>
-                </div>
-              </div>
 
-
-              <div class="form-group">
-                <label for="appointment_message" class="text-black">Message</label>
-                <textarea name="" id="appointment_message" class="form-control" cols="30" rows="10"></textarea>
-              </div>
-              <div class="form-group">
-                <input type="submit" value="Send Message" class="btn btn-primary">
-              </div>
-            </form>
-          </div>
-
-        </div>
-      </div> -->
     </div>
 
 

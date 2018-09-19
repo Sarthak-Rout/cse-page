@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+const Notice = require('../models/notice')
 
 /* GET home page. */
 router.get('/', function(req, res) {
@@ -16,6 +17,10 @@ router.get('/holidays', function(req, res) {
 
 router.get('/login', function(req, res) {
   res.render('login');
+});
+
+router.get('/blog-stld', function(req, res) {
+  res.render('blog-stld');
 });
 
 router.get('/syllabus', function(req, res) {
@@ -41,21 +46,40 @@ router.get('/blog-se', function(req, res) {
 router.get('/blog-sp', function(req, res) {
   res.render('blog-sp');
 });
-
-router.get('/blog-stld', function(req, res) {
-  res.render('blog-stld');
-});
+// router.post('/login', function(req, res) {
+//   res.render('login');
+//   console.log(res.body);
+// });
 
 router.get('/notice', function(req, res) {
-  res.render('notice');
+  var query = Notice.find({})
+  query.select('title body date');
+  query.exec((err,data) => {
+    console.log(data);
+    res.render('notice', {data: data});
+  })
 });
-
-router.get('/file', function(req, res) {
-  res.render('file', { title: 'Express' });
+router.get('/verify', function(req, res) {
+  res.render('enter', {message: req.flash('message')});
 });
-
-router.post('/', function(req, res) {
-  res.render('file', { title: 'Express' });
+router.post('/login', (req, res) => {
+  if(req.body.username === "admin" && req.body.password=== "admin@123"){
+    res.redirect('enter');
+  } else {
+    req.flash("message", "wrong username or password")
+    res.redirect('login');
+  }
+})
+router.get('/enter', (req, res)=> {
+  res.render('add')
+})
+router.post('/enter', function(req, res) {
   console.log(req.body);
+  let newNotice = new Notice(req.body);
+  console.log(newNotice);
+  newNotice.save()
+    .then(res.send("saved succesfully"))
+    .catch((err) => console.log(err))
 });
+
 module.exports = router;
