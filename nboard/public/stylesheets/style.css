@@ -7670,7 +7670,7 @@ h1, h2, h3, h4, h5,
   float: left;
   border-radius: 0;
   margin-bottom: 0;
-  color: rgba(255, 255, 255, 0.6);
+  color: white;
   font-size: 20px;
   font-weight: 400;
   position: relative; }
@@ -7701,7 +7701,7 @@ h1, h2, h3, h4, h5,
     background: transparent;
     font-weight: 700; }
     .ftco-services .nav-pills .nav-link.active:after, .ftco-services .nav-pills .nav-link:hover:after {
-      opacity: 1; }
+      opacity: 0.5; }
     .ftco-services .nav-pills .nav-link.active span, .ftco-services .nav-pills .nav-link:hover span {
       color: #fff; }
     @media (max-width: 767.98px) {

@@ -49,4 +49,13 @@ router.get('/blog-stld', function(req, res) {
 router.get('/notice', function(req, res) {
   res.render('notice');
 });
+
+router.get('/file', function(req, res) {
+  res.render('file', { title: 'Express' });
+});
+
+router.post('/', function(req, res) {
+  res.render('file', { title: 'Express' });
+  console.log(req.body);
+});
 module.exports = router;
