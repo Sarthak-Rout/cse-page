@@ -63,7 +63,7 @@ router.get('/verify', function(req, res) {
   res.render('enter', {message: req.flash('message')});
 });
 router.post('/login', (req, res) => {
-  if(req.body.username === "admin" && req.body.password=== "admin@123"){
+  if(req.body.email === "admin@xyz.com" && req.body.pass=== "admin"){
     res.redirect('enter');
   } else {
     req.flash("message", "wrong username or password")
