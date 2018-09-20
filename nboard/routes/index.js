@@ -46,6 +46,10 @@ router.get('/blog-se', function(req, res) {
 router.get('/blog-sp', function(req, res) {
   res.render('blog-sp');
 });
+
+router.get('/smoke', function(req, res) {
+  res.render('smoke');
+});
 // router.post('/login', function(req, res) {
 //   res.render('login');
 //   console.log(res.body);
