@@ -50,6 +50,10 @@ router.get('/blog-sp', function(req, res) {
 router.get('/smoke', function(req, res) {
   res.render('smoke');
 });
+
+router.get('/blog-ai', function(req, res) {
+  res.render('blog-ai');
+});
 // router.post('/login', function(req, res) {
 //   res.render('login');
 //   console.log(res.body);
