@@ -86,7 +86,7 @@ router.post('/enter', function(req, res) {
   let newNotice = new Notice(req.body);
   console.log(newNotice);
   newNotice.save()
-    .then(res.send("saved succesfully"))
+    .then(res.render('index'))
     .catch((err) => console.log(err))
 });
 

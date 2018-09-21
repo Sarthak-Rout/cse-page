@@ -50,7 +50,7 @@
     <ul id="notices" class="notice">
       <h3>Notices</h3>
       <% for(var i=0; i<data.length; i++ ){ %>
-      <li><span class="title">Title:<%= data[i].title %> </span>
+      <li><span class="title"><%= data[i].title %> </span>
       <span class="body"><%= data[i].body %> </span>
       <span class="date"><%= data[i].date %> </span>
     </li>
@@ -103,7 +103,7 @@
     padding: 20px 15px 30px 15px;
     margin-bottom: 30px;
     text-align: left;
-
+    overflow-wrap: break-word;
     }
     .notice li:nth-child(odd)
     {
